@@ -9,6 +9,15 @@ interface:
   termsOfService:
     externalUrl: 'https://librechat.ai/tos'
     openNewTab: true
+  agents:
+    use: true
+    share: false
+    public: false
+  endpointsMenu: true
+  parameters: true
+  sidePanel: true
+
+
 
 registration:
   socialLogins:
