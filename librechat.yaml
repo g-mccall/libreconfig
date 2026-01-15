@@ -25,13 +25,17 @@ mcpServers:
     args:
       - mcp-server-time
     startup: false
+
 actions:
   allowedDomains:
     - 'https://api.getzep.com/api/v2/'
-
+    - 'librechat.ai'
+    - 'google.com'
+    - 'swapi.dev'
+    
 endpoints:
   agents:
-    capabilities: ["execute_code", "file_search", "actions", "tools"]
+     capabilities: ["execute_code", "file_search", "actions", "tools"]
 
 
   custom:
