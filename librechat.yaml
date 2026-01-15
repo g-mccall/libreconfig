@@ -27,6 +27,7 @@ mcpServers:
     startup: false
 
 actions:
+
   allowedDomains:
     - 'https://api.getzep.com/api/v2/'
     - 'librechat.ai'
@@ -34,8 +35,7 @@ actions:
 
     
 endpoints:
-  agents:
-     capabilities: ["execute_code", "file_search", "actions", "tools"]
+
 
 
   custom:
