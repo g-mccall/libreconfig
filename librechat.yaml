@@ -31,7 +31,7 @@ actions:
     - 'https://api.getzep.com/api/v2/'
     - 'librechat.ai'
     - 'google.com'
-    - 'swapi.dev'
+
     
 endpoints:
   agents:
