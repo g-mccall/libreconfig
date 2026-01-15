@@ -25,12 +25,14 @@ mcpServers:
     args:
       - mcp-server-time
     startup: false
+actions:
+  allowedDomains:
+    - 'https://api.getzep.com/api/v2/'
 
 endpoints:
   agents:
     capabilities: ["execute_code", "file_search", "actions", "tools"]
-    allowedDomains:
-      - 'https://api.getzep.com/api/v2/'
+
 
   custom:
     # 302AI
