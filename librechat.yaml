@@ -29,7 +29,7 @@ mcpServers:
 actions: 
   allowedDomains:
   - 'api.getzep.com'
-
+  apiKey: ${ZEP_API_KEY}
 
 endpoints:
   custom:
@@ -520,6 +520,15 @@ endpoints:
       summarize: false
       summaryModel: "gpt-4o-mini"
       modelDisplayLabel: "302AI"
+
+    - name: "Anthropic (Skills Enabled)"
+      apiKey: "${ANTHROPIC_API_KEY}"
+      baseURL: "https://api.anthropic.com/v1"
+      models:
+        default: ["claude-3-5-sonnet-latest"]
+      defaultParamsEndpoint: "anthropic"
+      headers:
+        anthropic-beta: "code-execution-2025-08-25,skills-2025-10-02,files-api-2025-04-14"
 
     # APIpie
     # https://apipie.ai/dashboard/
