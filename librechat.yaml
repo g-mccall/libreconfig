@@ -28,7 +28,7 @@ mcpServers:
 
 actions: 
   allowedDomains:
-  - 'https://api.getzep.com/api/v2'
+  - 'api.getzep.com'
 
 
 endpoints:
