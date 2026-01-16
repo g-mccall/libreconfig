@@ -26,6 +26,11 @@ mcpServers:
       - mcp-server-time
     startup: false
 
+actions: 
+  allowedDomains:
+  - 'https://api.getzep.com/api/v2'
+
+
 endpoints:
   custom:
     # 302AI
