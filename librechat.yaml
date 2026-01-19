@@ -29,7 +29,7 @@ mcpServers:
 actions: 
   allowedDomains:
   - 'api.getzep.com'
-  apiKey: ${ZEP_API_KEY}
+  - 'app.getoutline.com/api'
 
 endpoints:
   custom:
