@@ -31,6 +31,7 @@ actions:
   - 'api.getzep.com/api/v2'
   - 'app.getoutline.com/api'
   - 'api.anthropic.com/v1'
+  - 'claude-skill-wrapper-production.up.railway.app/api'
 
 endpoints:
   custom:
