@@ -30,6 +30,7 @@ actions:
   allowedDomains:
   - 'api.getzep.com/api/v2'
   - 'app.getoutline.com/api'
+  - 'api.anthropic.com/v1'
 
 endpoints:
   custom:
