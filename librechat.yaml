@@ -28,7 +28,7 @@ mcpServers:
 
 actions: 
   allowedDomains:
-  - 'api.getzep.com'
+  - 'api.getzep.com/api/v2'
   - 'app.getoutline.com/api'
 
 endpoints:
