@@ -31,19 +31,9 @@ actions:
   - 'api.getzep.com/api/v2'
   - 'app.getoutline.com/api'
   - 'api.anthropic.com/v1'
-  - 'claude-skill-wrapper-production.up.railway.app/api'
+  - 'claude-skill-wrapper-production.up.railway.app'
 
 endpoints:
-  anthropic:
-    skillsEnabled: true
-    models:
-      default:
-        - claude-opus-4-20250514
-        - claude-opus-4-1-20250805
-        - claude-sonnet-4-20250514
-        - claude-3-7-sonnet-latest
-        - claude-3-5-sonnet-latest
-      fetch: false
   custom:
     # 302AI
     # https://302.ai/
