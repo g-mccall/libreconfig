@@ -38,6 +38,16 @@ endpoints:
     # 302AI
     # https://302.ai/
     # Script to fetch models: https://github.com/LibreChat-AI/librechat-config-yaml/blob/main/scripts/ai302.py
+    - name: "Our Anthropic"
+      apiKey: "${ANTHROPIC_API_KEY}"
+      baseURL: "https://api.anthropic.com/v1"
+      models:
+        default: ["claude-opus-4-5"]
+        
+
+
+
+
     - name: "302AI"
       apiKey: "user_provided"
       baseURL: "https://api.302.ai/v1"
