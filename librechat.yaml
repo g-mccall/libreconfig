@@ -537,10 +537,10 @@ endpoints:
       apiKey: "${ANTHROPIC_API_KEY}"
       baseURL: "https://api.anthropic.com/v1/"
       models:
-        default: ["claude-opus-4-5"]
+        default: ["claude-opus-4-5-20251101"]
       defaultParamsEndpoint: "anthropic"
       headers:
-        anthropic-beta: "skills-2025-10-02"
+        anthropic-beta: "code-execution-2025-08-25,skills-2025-10-02,files-api-2025-04-14"
 
     # APIpie
     # https://apipie.ai/dashboard/
