@@ -537,7 +537,7 @@ endpoints:
       apiKey: "${ANTHROPIC_API_KEY}"
       baseURL: "https://api.anthropic.com/v1"
       models:
-        default: ["claude-3-5-sonnet-latest"]
+        default: ["claude-opus-4-5-20251101-v1"]
       defaultParamsEndpoint: "anthropic"
       headers:
         anthropic-beta: "code-execution-2025-08-25,skills-2025-10-02,files-api-2025-04-14"
