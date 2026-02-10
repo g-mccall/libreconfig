@@ -32,7 +32,7 @@ actions:
   - 'app.getoutline.com/api'
   - 'api.anthropic.com/v1'
   - 'claude-skill-wrapper-production.up.railway.app'
-  - 'public-api.gamma.app/v1.0'
+
 
 endpoints:
   custom:
